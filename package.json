@@ -1,0 +1,26 @@
+{
+  "name": "chatcoders",
+  "version": "1.0.0",
+  "description": "Chat em tempo real com deploy no Glitch",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeniferplacido/chatCoders.git"
+  },
+  "author": "Jenifer Plácido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeniferplacido/chatCoders/issues"
+  },
+  "homepage": "https://github.com/jeniferplacido/chatCoders#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "socket.io": "^4.8.0",
+    "sweetalert2": "^11.14.3"
+  }
+}
